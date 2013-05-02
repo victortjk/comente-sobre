@@ -1,0 +1,176 @@
+*{margin:0px; padding:0px; font-family:Arial, Helvetica, sans-serif;}
+
+body{
+	color: black;
+	font-size: 14px;
+	background-color: rgb(228, 236, 249);
+}
+
+/* CSS DO HEADER */
+#header {
+	display: block;
+	position:absolute;
+	height: 69px;
+	width: 100%;
+	background-color: black;
+	color: white;
+	
+	border-bottom: 1px solid gray;
+}
+
+#titulo {
+	position: relative;
+	top: 22px;
+	left: 25px;
+	font-size: 2em;
+	font-weight: bold;
+}
+/* FIM DO CSS DO HEADER */
+
+/* CSS DO BODY */
+#body{
+	position: absolute;
+	top:70px;
+	width: 100%;
+	background-color: rgb(228, 236, 249);
+	height: 500px;
+}/*FIM DO CSS DO BODY */
+
+
+/* CSS DO MENU */
+#menu {
+	position: absolute;
+	top:48px;
+	left: 18px;
+	width:150px;
+	min-height: 250px;
+	background-color: rgb(228, 236, 249);
+}
+
+#menu > ul {
+	list-style: none;
+/* 	border: 1px solid black; */
+}
+
+#menu > ul > li {
+	background-color: rgb(192, 192, 192);
+	border-top: 1px solid rgb(228, 236, 249);
+	height: 22px;
+	padding: 5px 0 0 10px;
+	font-weight: bold;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+#menu > ul > li a {
+	color: white;
+	text-decoration: none;	
+}
+
+#menu > ul > li:hover {
+	background-color: #5d5c7B;
+	color:white;
+}
+
+#menu > ul > li:first-child {
+	border-top: none;
+}
+/* FIM DO CSS DO MENU */
+
+/* CSS DO CONTENT */
+#content {
+	position: absolute;
+	top:48px;
+	left: 190px;
+	height: 440px;
+	overflow: auto;
+}
+/* FIM DO CSS DO CONTENT */
+
+/* CSS DO TABLE */
+
+table {
+	width:1100px;
+	font-size: 12px;
+}
+
+table thead {
+	background-color: #000;
+	color: white;
+	font-weight: bold;
+}
+
+table tbody tr:nth-child(even) {
+	background-color: #a29bc0;
+}
+table tbody td {
+	vertical-align: text-bottom;
+	padding: 0 2px 0 2px;	
+	overflow:hidden;
+}
+
+/* table tbody td#enderecoTd { */
+/* 	max-width:300px; */
+/* 	max-height: 20px; */
+/* 	overflow:hidden; */
+/* } */
+
+/* table tbody td#nomeTd { */
+/* 	max-width:120px; */
+/* 	overflow:hidden; */
+/* } */
+
+/* table tbody td#emailTd { */
+/* 	max-width:120px; */
+/* 	overflow: hidden; */
+/* } */
+/* FIM DO CSS DO TABLE */
+
+/* input */
+input:FOCUS {
+	background-color: #e7ecf1;
+	border: 1px solid #365372;
+	-moz-border-radius: 2px;
+	padding: 1px;
+}
+input, label {
+	display: block;
+	
+}
+
+.hint {
+	color: gray;
+	font-size: 10pt;
+}
+label.error {
+	color:red;	
+}
+/* fim do input */
+
+/*FIELDSET*/
+fieldset#newComment {
+	padding: 10px 20px;
+	width: 400px;
+}
+/*fim do FIELDSET*/
+
+
+/* CSS do footer */
+#footer{
+	position:absolute;
+	bottom:0px;
+	color:white;
+	width:100%;
+	height: 69px;
+	font-weight: bold;
+	font-size: 1.1sem;
+	background-color: black;
+	border-top: 1px solid gray;
+}
+
+#footerSpan{
+	position: absolute;
+	left: 500px;
+	top: 20px;
+}
+/* fim do CSS do footer */
